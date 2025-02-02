@@ -25,6 +25,7 @@ export default function Navbar() {
       <span className="ml-3 text-xl text-white">SD FASHIONs</span>
     </a>
     <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+    <Link href="/SignUp">
       <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
         Sign Up
         <svg
@@ -39,6 +40,7 @@ export default function Navbar() {
           <path d="M5 12h14M12 5l7 7-7 7" />
         </svg>
       </button>
+      </Link>
     </div>
   </div>
 </header>
